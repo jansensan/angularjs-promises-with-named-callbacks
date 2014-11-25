@@ -1,0 +1,21 @@
+<html>
+
+<head>
+	<title></title>
+</head>
+
+<body>
+	<div ng-app="Main">
+		<div ng-controller="mainController as controller">
+			<button
+				type="button"
+				ng-click="controller.testPromise()"
+				ng-disabled="controller.isPromisePending"
+			>testPromise()</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="static/js/vendors/angular.min.js"></script>
+	<script type="text/javascript" src="static/js/src/main.js"></script>
+</body>
+
+</html>
