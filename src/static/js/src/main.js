@@ -99,7 +99,7 @@
         //   function () {
         //     onPromiseRejected(timestamp);
         //   }
-        // );
+        // )['finally'](setPromiseAsCompleted);
 
       // option 2: naming functions in context. works, but less than ideal in our context.
         .then(
