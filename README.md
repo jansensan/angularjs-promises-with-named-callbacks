@@ -1,2 +1,2 @@
-angularjs-promises-with-named-callbacks
-=======================================
+AngularJS Test - Promises with named callbacks
+==============================================
